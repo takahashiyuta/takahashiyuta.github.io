@@ -1,14 +1,37 @@
 <!DOCTYPE HTML>
 <html lang="ja">
 <head>
-	<meta charset="UTF-8" />
-	<title>お問い合わせフォーム</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>plofile - yuta.takahashi | お問い合わせフォーム</title>
+    <meta name="description" content="yuta.takahashiへのお問い合わせフォームです。 ">
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <bpdy>
+	<header>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="logo">
+        <img src="img/plofile5.jpg" alt="高橋祐太写真">
+        <h1>高橋　祐太</h1>
+      </div>
+    </header>
+    <div class="container">
 	<h1>お問い合わせ</h1>
 	<form action="" method="post">
 		<label>名前:<input type="text" name="login_name" /></label>
-		<label>パスワード:<input type="password" name="password" /></p>
+		<label>パスワード:<input type="password" name="password" /></label>
 		<div>
 			<label>男<input type="radio" name="gender" value="man" /></label>
 			<label>女<input type="radio" name="gender" value="woman" /></label>
@@ -35,5 +58,9 @@
 		</div>
 		<input type="submit" value="送信" />
 	</from>
+	<footer>
+        <p>&copy; 2016 Takahashi yuta.</p>
+    </footer>
+	</div>
 </body>
 </html>
